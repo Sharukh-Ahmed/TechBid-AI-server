@@ -8,7 +8,7 @@ const app = express();
 const port = 5000;
 
 app.use(cors({
-  origin: 'https://tech-bid-ai.vercel.app/',
+  origin: 'https://tech-bid-ai.vercel.app',
   credentials: true
 }));
 app.use(express.json());
